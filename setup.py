@@ -24,4 +24,5 @@ setup(
   setup_requires=["numpy", "cython"],
   install_requires=["numpy"],
   version=_VERSION,
+  script_args=['build_ext', '--inplace'],
 )
